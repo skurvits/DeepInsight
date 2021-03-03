@@ -32,6 +32,7 @@ class ImageTransformer:
         """
         self.random_state = random_state
         self.n_jobs = n_jobs
+        self.perplexity = perplexity
 
         if isinstance(feature_extractor, str):
             fe = feature_extractor.casefold()
