@@ -16,7 +16,7 @@ class ImageTransformer:
     """
 
     def __init__(self, feature_extractor='tsne', pixels=100,
-                 random_state=None, n_jobs=None, perplexity=30):
+                 random_state=None, n_jobs=None, perplexity=None):
         """Generate an ImageTransformer instance
 
         Args:
